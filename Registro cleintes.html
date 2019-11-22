@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Regristro Clientes</title>
+    <link rel="stylesheet" href="Estilos.css">
+</head>
+
+<body>
+    <header id="header">
+        <nav class="navegation  ">
+            <ul class="menu">
+                <li><a href="file:///C:\Users\Jorda\OneDrive\Documents\Proyectos\Proyecto paginas web(Sistema de prestamos)\PrestamosWeb\Home.html">Home</a>
+                </li>
+                <li><a href="#">Mantenimientos</a>
+                    <ul class="submenu1">
+                        <li><a
+                                href="file:///C:\Users\Jorda\OneDrive\Documents\Proyectos\Proyecto paginas web(Sistema de prestamos)\PrestamosWeb\Recibo de ingreso.html">Recibo
+                                de ingreso</a></li>
+                        <li><a
+                                href="file:///C:\Users\Jorda\OneDrive\Documents\Proyectos\Proyecto paginas web(Sistema de prestamos)\PrestamosWeb\Recibo de ingreso y capital.html">Recibo
+                                de ingreso interesy capital</a></li>
+                        <li><a
+                                href="file:///C:\Users\Jorda\OneDrive\Documents\Proyectos\Proyecto paginas web(Sistema de prestamos)\PrestamosWeb\Registro cleintes.html">Registro
+                                de clientes</a></li>
+                        <li><a
+                                href="file:///C:\Users\Jorda\OneDrive\Documents\Proyectos\Proyecto paginas web(Sistema de prestamos)\PrestamosWeb\Registro agentes.html">Registro
+                                de agentes</a></li>
+                        <li><a
+                                href="file:///C:\Users\Jorda\OneDrive\Documents\Proyectos\Proyecto paginas web(Sistema de prestamos)\PrestamosWeb\Registro usuario.html">Registro
+                                usuarios</a></li>
+                        <li><a
+                                href="file:///C:\Users\Jorda\OneDrive\Documents\Proyectos\Proyecto paginas web(Sistema de prestamos)\PrestamosWeb\Registro zonas.html">Registro
+                                zonas</a></li>
+                        <li><a
+                                href="file:///C:\Users\Jorda\OneDrive\Documents\Proyectos\Proyecto paginas web(Sistema de prestamos)\PrestamosWeb\Registro prestamo.html">Registro
+                                prestamo</a></li>
+                        <li><a
+                                href="file:///C:\Users\Jorda\OneDrive\Documents\Proyectos\Proyecto paginas web(Sistema de prestamos)\PrestamosWeb\Tabla de prestamo.html">Tabla
+                                de prestamo</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">Consultas</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <form>
+        Codigo:
+        <input class="field" type="text" placeholder="Codigo" name="numero">
+        <select class="field">
+            <option value="cliente">cliente</option>
+            <option value="usuario">usuario</option>
+        </select>
+        <input class="field" type="text" placeholder="Buscar" name="nombre">
+        <h1>Registro de Prestamo</h1>
+        cod.cliente:
+        <input class="field" type="text" name="cod.cliente">
+        <input class="field" type="text" name="nose">
+        <input class="field" type="text" name="nose1">
+        <input class="field" type="text" name="nose2">
+        cedula:
+        <input class="field" type="text" name="cedula">
+        zona:
+        <input class="field" type="text" name="zona">
+        Cobrador:
+        <input class="field" type="text" name="cobrador">
+        Agente:
+        <input class="field" type="text" name="representante">
+        Garantia:
+        <input class="field" type="text" name="garantia">
+        Detalle:
+        <input class="field" type="text" name="detalle">
+        printer:
+        <select class="field">
+            <option name="epson">pson</option>
+            <option name="hp">HP</option>
+        </select>
+        Fiador:
+        <input class="field" type="text" name="fiador">
+        Direccion:
+        <input class="field" type="text" name="Direccion">
+        Telefono:
+        <input class="field" type="text" name="telefono">
+        Direccion:
+        <input class="field" type="text" name="direccion">
+        <select class="field">
+            <option name="peso">RDS</option>
+            <option name="USD">USD</option>
+        </select>
+        Fecha:
+        <input class="field" type="text" name="fecha">
+        Tipo:
+        <select class="field">
+            <option name="int">Interes fijo</option>
+            <option name="int2">Incremental</option>
+        </select>
+        Ctas pagadas:
+        <input class="field" type="text" name="coutas">
+        Gasto ley:
+        <input class="field" type="text" name="gastos">
+        Balance:
+        <input class="field" type="text" name="balances">
+        Monto:
+        <input class="field" type="text" name="monto">
+        interes:
+        <input class="field" type="text" name="gastos">
+        Coutas:
+        <input class="field" type="text" name="gastos">
+        Dia:
+        <input class="field" type="text" name="gastos">
+        <select class="field">
+            <option name="cou">Dias coutas</option>
+            <option name="otro">otro</option>
+        </select>
+        <select class="field">
+            <option name="proc">no procesado</option>
+            <option name="proce">procesado</option>
+        </select>
+        <table border="1">
+            <thead>
+                <tr class="linea">
+                    <th>No.coutas </th>
+                    <th>Fecha </th>
+                    <th>Monto </th>
+                    <th>APgo Couta </th>
+                    <th>Capital </th>
+                    <th>Interes </th>
+                    <th>Balance </th>
+                </tr>
+            </thead>
+        </table>
+        <p class="center-content">
+            <input type="submit" class="btn btn-green" value="Aceptar">
+        </p>
+    </form>
+</body>
+
+</html>

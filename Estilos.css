@@ -1,0 +1,152 @@
+body {
+    font-family: Arial;
+    background-color: #18A383;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+form {
+    background-color: white;
+    border-radius: 3px;
+    color: #999;
+    font-size: 0.8em;
+    padding: 20px;
+    margin: 0 auto;
+    width: 400px;
+}
+
+input, textarea, select {
+    border: 0;
+    outline: none;
+    width: 380px;
+}
+
+.field {
+    border: solid 1px #ccc;
+    padding: 10px;
+}
+
+.field:focus {
+    border-color: #18A383;
+}
+
+.center-content {
+    text-align: center;
+}
+
+.btn {
+    border-radius: 3px;
+    display: inline-block;
+    padding: 20px 15px;
+    text-decoration: none;
+    text-shadow: 0 1px 0 rgba(255, 255, 255, 0.3);
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.3);
+}
+
+.btn-green {
+    color: white;
+    background-color: #3CC93F;
+}
+
+.btn-green:hover {
+    background-color: #37B839;
+}
+
+.btn-green:active {
+    background-color: #29962A;
+}
+
+.navegation {
+    width: 1000px;
+    margin: 30px auto;
+    background-color: white;
+    border-radius: 3px;
+}
+
+.navegation ul {
+    list-style: none;
+}
+
+.menu>li {
+    position: relative;
+    display: inline-block;
+}
+
+.menu>li>a {
+    display: block;
+    padding: 15px 20px;
+    color: black;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-decoration: none;
+}
+
+.menu li a:hover {
+    color: rgb(84, 216, 113);
+    transition: all .3s;
+}
+
+.submenu1 {
+    position: absolute;
+    background-color: black;
+    width: 120%;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 1s;
+}
+
+.submenu1 li a {
+    display: block;
+    padding: 15px;
+    color: white;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-decoration: none;
+}
+
+.menu li:hover .submenu1 {
+    visibility: visible;
+    opacity: 1;
+}
+
+.linea {
+    background-color: #18A383;
+    color: white;
+}
+
+table {
+    background-color: white;
+    padding: 15px;
+    width: 100%;
+    border-collapse: initial;
+    border-color: black;
+    border-style: none;
+}
+
+#Registro-agentes{
+    width: 600px;
+}
+#Registro-agentes input{
+    width: 580px;
+}
+#capital{
+    width: 700px;
+}
+#capital input{
+    width: 680px;
+}
+#Recibo-ingreso{
+    width: 700px;
+}
+#Recibo-ingreso input{
+    width: 680px;
+}
+
+#Home{
+    color: black;
+}
+img{
+    width: 380px;
+}

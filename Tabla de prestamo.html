@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Tabla de prestamo</title>
+    <link rel="stylesheet" href="Estilos.css">
+</head>
+
+<body>
+    <header id="header">
+        <nav class="navegation  ">
+            <ul class="menu">
+                <li><a href="file:///C:\Users\Jorda\OneDrive\Documents\Proyectos\Proyecto paginas web(Sistema de prestamos)\PrestamosWeb\Home.html">Home</a>
+                </li>
+                <li><a href="#">Mantenimientos</a>
+                    <ul class="submenu1">
+                        <li><a
+                                href="file:///C:\Users\Jorda\OneDrive\Documents\Proyectos\Proyecto paginas web(Sistema de prestamos)\PrestamosWeb\Recibo de ingreso.html">Recibo
+                                de ingreso</a></li>
+                        <li><a
+                                href="file:///C:\Users\Jorda\OneDrive\Documents\Proyectos\Proyecto paginas web(Sistema de prestamos)\PrestamosWeb\Recibo de ingreso y capital.html">Recibo
+                                de ingreso interesy capital</a></li>
+                        <li><a
+                                href="file:///C:\Users\Jorda\OneDrive\Documents\Proyectos\Proyecto paginas web(Sistema de prestamos)\PrestamosWeb\Registro cleintes.html">Registro
+                                de clientes</a></li>
+                        <li><a
+                                href="file:///C:\Users\Jorda\OneDrive\Documents\Proyectos\Proyecto paginas web(Sistema de prestamos)\PrestamosWeb\Registro agentes.html">Registro
+                                de agentes</a></li>
+                        <li><a
+                                href="file:///C:\Users\Jorda\OneDrive\Documents\Proyectos\Proyecto paginas web(Sistema de prestamos)\PrestamosWeb\Registro usuario.html">Registro
+                                usuarios</a></li>
+                        <li><a
+                                href="file:///C:\Users\Jorda\OneDrive\Documents\Proyectos\Proyecto paginas web(Sistema de prestamos)\PrestamosWeb\Registro zonas.html">Registro
+                                zonas</a></li>
+                        <li><a
+                                href="file:///C:\Users\Jorda\OneDrive\Documents\Proyectos\Proyecto paginas web(Sistema de prestamos)\PrestamosWeb\Registro prestamo.html">Registro
+                                prestamo</a></li>
+                        <li><a
+                                href="file:///C:\Users\Jorda\OneDrive\Documents\Proyectos\Proyecto paginas web(Sistema de prestamos)\PrestamosWeb\Tabla de prestamo.html">Tabla
+                                de prestamo</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">Consultas</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <form>
+        Nombre:
+        <input class="field" type="text" placeholder="Nombre" name="nombre">
+        <h1>Tabla prestamo o calculo prestamo</h1>
+        Fecha:
+        <input class="field" type="text" name="fecha">
+        Tipo:
+        <select class="field">
+            <option name="intfijo">interes fijo</option>
+            <option name="creciente">creciente</option>
+        </select>
+        Coutas pagada:
+        <input class="field" type="text" name="couta">
+        Gastos ley:
+        <input class="field" type="text" name="gastos">
+        Monto:
+        <input class="field" type="text" name="monto">
+        Interes:
+        <input class="field" type="text" name="interes">
+        Coutas:
+        <input class="field" type="text" name="coutas">
+        Dia:
+        <input class="field" type="text" name="dia">
+        <select class="field">
+            <option name="mensual"> mensual </option>
+            <option name="semanal"> semanal </option>
+        </select>
+        <br>
+        <table border="1">
+            <thead>
+                <tr class="linea">
+                    <th>No.Coutas </th>
+                    <th>Fecha </th>
+                    <th>Monto </th>
+                    <th>Pago Cta. </th>
+                    <th>Capital </th>
+                    <th>Interes </th>
+                    <th>Balance </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>156</td>
+                    <td>1/12/2019</td>
+                    <td>1,258.00</td>
+                    <td>5</td>
+                    <td>3,000.00</td>
+                    <td>500.00</td>
+                    <td>8,000.00</td>
+                </tr>
+            </tbody>
+        </table>
+        <p class="center-content">
+            <input type="submit" class="btn btn-green" value="Aceptar">
+        </p>
+    </form>
+
+
+
+</body>
+
+</html>
